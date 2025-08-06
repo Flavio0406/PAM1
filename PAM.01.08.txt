@@ -1,0 +1,59 @@
+Classe é um template ou um desenho ou ainda um molde de um objeto do mundo real. 
+
+Atributos é aquilo que a nossa classe tem, ou seja o que define a classe.
+
+Nome de variáveis e de métodos sempre começam com letra minuscula, sem espaço, sem acento, sem ç, não pode ter caracteres especiais e não pode começar com números. Quando o nome for composto a primeira letra das palavras seguintes será maiuscula. 
+
+ex.: dataNascimento, nome, idade, diaDaSemana, telefoneComercial
+
+
+Nome de classe sempre começa com a letra maiuscula.
+ex.: ContaCorrente, Agencia
+Padrao camelCase
+
+Tipos de variáveis (Primitivos):
+----------------------------------
+Inteiros: int 
+	-> int idade = 16; 
+
+Reais/Flutuantes: double ou float
+	-> double salario = 17.450; 
+
+caractere: char
+	-> char sexo = 'F'; 
+
+Booleano: boolean 
+	-> boolean isClientePrivate = true; 
+
+Cadeia de caracteres: String  (não é primitivo)
+	-> String cliente = "Josefino"; 
+
+
+IDE -> Integrated Development Environment 
+       Ambiente de Desenvolvimento Integrado
+	ex.: Android Studio, IntelliJ, NetBeans, Visual Studio, Eclipse e etc. 
+
+
+No Java, temos a classe Main que é a classe responsável por executar o projeto.
+
+
+
+
+
+Os metodos começam com letra minuscula, se o nome for composto a primeira letra da palavra seguinte será maiuscula, eles tem que ter na frente do nome um parenteses () e um retorno.
+	
+	int soma = somarNumero(2, 2);
+
+	private somarNumero(int numero1, int numero2){
+
+		return numero1 + numero2;
+	}
+
+	Nesse caso acima, a variável soma terá o valor 4. 
+
+Para instanciar uma classe usamos a palavra reservada new.
+Instanciar significa colocar na memória do computador, quando eu coloco na memória eu estou criando uma instância.
+No Java para criar uma variável colocamos primeiro o tipo e depois o nome. 
+
+	ex.: Conta conta = new Conta();
+
